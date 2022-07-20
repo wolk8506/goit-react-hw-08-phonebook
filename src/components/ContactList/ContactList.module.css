@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ .list{
+    padding:  0px;
+}
+
+.list li+li{
+    margin-top: 5px;
+}
+.list li {
+    border: 1px solid rgba(128, 255, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    
+}
+
+.list li:hover {
+    border: 1px solid #fcbd00;
+    transform: scale(1.01);
+    color: #000;
+}
